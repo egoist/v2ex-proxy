@@ -5,8 +5,11 @@
 ## Install
 
 ```bash
+# Run it on your machine
 $ npm install -g v2ex-proxy
 ```
+
+Or even easier, use the live one: http://v2ex.pixelcat.co/
 
 ## Usage
 
