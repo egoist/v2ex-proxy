@@ -12,6 +12,7 @@
   "engines": {
     "node": ">=4"
   },
+  "main": "lib/server.js",
   "scripts": {
     "test": "xo lib/*.js",
     "start": "node lib/server.js",
