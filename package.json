@@ -1,6 +1,6 @@
 {
   "name": "v2ex-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Play with V2EX API with no worry about CORS.",
   "license": "MIT",
   "repository": "egoist/v2ex-proxy",
