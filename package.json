@@ -1,0 +1,44 @@
+{
+  "name": "v2ex-proxy",
+  "version": "0.0.0",
+  "description": "Play with V2EX API with no worry about CORS.",
+  "license": "MIT",
+  "repository": "egoist/v2ex-proxy",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo lib/*.js",
+    "start": "nodemon lib/server.js --watch lib"
+  },
+  "files": [
+    "lib",
+    "cli.js"
+  ],
+  "keywords": [
+    "v2ex",
+    "proxy"
+  ],
+  "bin": "cli.js",
+  "devDependencies": {
+    "nodemon": "^1.9.1",
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "dependencies": {
+    "axios": "^0.10.0",
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^5.4.0",
+    "meow": "^3.7.0"
+  }
+}
