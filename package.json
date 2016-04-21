@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "xo lib/*.js",
-    "start": "nodemon lib/server.js --watch lib"
+    "start": "node lib/server.js",
+    "dev": "nodemon lib/server.js --watch lib"
   },
   "files": [
     "lib",
@@ -35,6 +36,7 @@
   },
   "dependencies": {
     "axios": "^0.10.0",
+    "fs-promise": "^0.5.0",
     "koa": "^1.2.0",
     "koa-bodyparser": "^2.0.1",
     "koa-cors": "0.0.16",
